@@ -4,7 +4,7 @@ version: 0.2-draft
 lastUpdated: 2026-10-15
 ---
 
-> **Draft — pending JOSA legal review.** This text is for the Marsad pilot and Meta App Review.
+<!-- > **Draft — pending JOSA legal review.** This text is for the Marsad pilot and Meta App Review. -->
 
 # Terms & Privacy Policy
 
@@ -130,4 +130,4 @@ Before we change what data Marsad collects, why, which Facebook permissions it u
 
 ### Contact
 
-[privacy contact email — to be confirmed]
+info at josa dot ngo
