@@ -1,0 +1,24 @@
+{
+  "brand": {
+    "name": "Marsad"
+  },
+  "topbar": {
+    "language": "Language",
+    "toggleLanguageMenu": "Toggle language menu"
+  },
+  "landing": {
+    "title": "Marsad — Coming soon",
+    "description": "Marsad helps organizations detect and review harmful comments on their Facebook Pages.",
+    "comingSoon": "Coming soon",
+    "about": "Marsad is an AI-assisted content moderation tool by the Jordan Open Source Association (JOSA).",
+    "legalLink": "Read our Terms & Privacy Policy",
+    "footer": "© JOSA"
+  },
+  "legal": {
+    "title": "{title} — Marsad",
+    "metaDescription": "Marsad's Terms of Use and Privacy Policy.",
+    "lastUpdated": "Last updated {date}",
+    "tocHeading": "On this page",
+    "backToMarsad": "Back to Marsad"
+  }
+}

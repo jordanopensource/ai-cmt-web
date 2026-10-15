@@ -1,0 +1,39 @@
+/* Design tokens (light palette by default, dark via prefers-color-scheme).
+   Adapted from the prototype's tokens.css: that version gated dark mode
+   behind a `data-color-mode` attribute set by @nuxtjs/color-mode, which this
+   minimal site doesn't bring in — only `prefers-color-scheme` is used here. */
+
+:root {
+  --bg: #f1f3f9;
+  --panel: #ffffff;
+  --border: #d0d7de;
+  --text: #12203e;
+  --text-dim: #656d76;
+  --primary: #0969da;
+  --primary-dark: #0550ae;
+  --primary-light: #ddf4ff;
+  --radius: 6px;
+  --shadow: 0 3px 6px rgba(140, 149, 159, 0.15);
+
+  /* Self-hosted (app/assets/fonts/ibm-plex-sans-arabic/ + fonts.css) — one
+     font for everything, both locales, body/headings/Arabic content alike. */
+  --font-display: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  --font-body: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --font-arabic: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #0d1117;
+    --panel: #161b22;
+    --border: #30363d;
+    --text: #f1f3f9;
+    --text-dim: #8b949e;
+    --primary: #58a6ff;
+    --primary-dark: #79c0ff;
+    --primary-light: rgba(56, 139, 253, 0.15);
+    --shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  }
+}

@@ -4,10 +4,37 @@
   "type": "module",
   "packageManager": "pnpm@12.6.0",
   "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
+  "dependencies": {
+    "@comark/nuxt": "0.7.0",
+    "@comark/vue": "0.7.0",
+    "@nuxtjs/i18n": "^10.6.0",
+    "comark": "0.7.0",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.42",
+    "vue-router": "^5.3.1"
+  },
   "devDependencies": {
-    "prettier": "^3.9.6"
+    "@eslint/css": "^2.0.0",
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^2.1.0",
+    "@eslint/markdown": "^8.0.3",
+    "@nuxt/eslint": "^1.17.0",
+    "eslint": "^10.0.0",
+    "eslint-plugin-vue": "^10.11.1",
+    "globals": "^17.12.0",
+    "jiti": "^2.7.0",
+    "prettier": "^3.9.6",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.70.1",
+    "vue-tsc": "^3.3.12"
   }
 }
