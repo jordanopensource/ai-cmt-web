@@ -1,0 +1,23 @@
+node_modules/
+.nuxt/
+.output/
+dist/
+Dockerfile
+*.toml
+.gitignore
+.prettierignore
+pnpm-lock.yaml
+
+# Files copied verbatim from ../cmt/prototype — kept byte-identical,
+# not reformatted to this repo's Prettier style.
+content/legal/
+app/components/common/LanguageSwitcher.vue
+app/components/common/AppLogo.vue
+app/composables/useDropdownMenu.ts
+app/utils/pluralRules.ts
+app/utils/comarkHeadingIds.ts
+app/components/legal/LegalMarkdown.ts
+app/components/legal/LegalTableWrap.vue
+app/components/prose/ProseH2.vue
+app/components/prose/ProseH3.vue
+i18n/i18n.config.ts
